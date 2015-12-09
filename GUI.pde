@@ -6,8 +6,6 @@ GTextArea chatBox;
 
 String chat = "";
 
-String incomingMessage = "";
-
 void setup() {
   background(#9AAFA6);
   size (800, 600);
