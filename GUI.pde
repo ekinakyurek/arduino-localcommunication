@@ -37,10 +37,10 @@ void processMessage()
 {
   String message = messageArea.getText();
   if (message.length()>= 2) {
-    String textToAppend = "User-1: " + messageArea.getText()+ "\n";
+    String textToAppend = "User-1: " + message+ "\n";
     chat += textToAppend;
     chatBox.setText(chat);
-    sendToArduino(messageArea.getText());
+    sendToArduino(message);
     messageArea.setText("");
   }
 }
